@@ -22,9 +22,6 @@ This demo showcases how warehouse activity data can be visualized using an **int
 
 ## 🔍 Overview
 
-- **Structure Modeled**: A typical rack with 5 bays (12 ft wide each) and 5 vertical levels:
-  - Levels A–C: Small bins (1' × 1' × 4'), 12 bins per level
-  - Levels D–E: Pallet bins (4' × 4' × 4'), 3 bins per level
 - **Visualization**: Pick locations are color-coded from **red (most picked)** to **blue (least picked)**.
 - **Input Data**: Sample or live pick frequency data with location references
 - **Output**: Interactive 3D or 2D model with hover tooltips for pick stats and hotspot visibility
@@ -44,7 +41,7 @@ This demo showcases how warehouse activity data can be visualized using an **int
 
 ### 🔺 3D Visualization
 
-👉 [Interactive Demo (HTML)](https://github.com/AyubSherif/WarehouseManagementAppDemo/blob/main/img/3d_warehouse_pick_visualization.html)
+👉 [Interactive Demo (HTML)](https://github.com/AyubSherif/WarehouseManagementAppDemo/blob/main/img/3d_warehouse_visualization.html)
 
 **Snapshot**
 
@@ -54,7 +51,7 @@ This demo showcases how warehouse activity data can be visualized using an **int
 
 ### 🔻 2D Visualization
 
-👉 [Interactive Demo (HTML)](https://github.com/AyubSherif/WarehouseManagementAppDemo/blob/main/img/3d_warehouse_pick_visualization.html)
+👉 [Interactive Demo (HTML)](https://github.com/AyubSherif/WarehouseManagementAppDemo/blob/main/img/2d_warehouse_visualization.html)
 
 
 ![2D Snapshot](https://github.com/AyubSherif/WarehouseManagementAppDemo/blob/main/img/2D%20demo.png)

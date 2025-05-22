@@ -24,11 +24,11 @@ outline_traces = create_location_outlines(df)
 
 fig = go.Figure(data=[scatter] + outline_traces)
 fig.update_layout(
-    title="Pick Frequency by Location",
+    title="3D Visualization of an Arbitrary Warehouse Activity (Picks per Day)",
     scene=dict(
-        xaxis=dict(title='Width (Bays)', backgroundcolor="white"),
-        yaxis=dict(title='Aisles (Depth)', backgroundcolor="white"),
-        zaxis=dict(title='Height (Levels)', backgroundcolor="white"),
+        xaxis=dict(title='Width (ft)', backgroundcolor="white"),
+        yaxis=dict(title='Depth (ft)', backgroundcolor="white"),
+        zaxis=dict(title='Height (ft)', backgroundcolor="white"),
         aspectmode='data'
     ),
     height=750,
@@ -37,7 +37,7 @@ fig.update_layout(
 
 fig.show()
 
-html_path = "C:/Users/asheri/PythonDevelopment/WarehouseManagementApp/img/3d_warehouse_pick_visualization.html"
+html_path = "img/3d_warehouse_visualization.html"
 fig.write_html(html_path)
 html_path
 
